@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/Inter-Regular.woff2") format("woff2"),
+         url("./fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./fonts/Inter-Black.woff2") format("woff2"),
+         url("./fonts/Inter-Black.woff") format("woff");
+}
+.page{
+    min-width: 320px;
+    max-width: 1280px;
+    background: #2A2C2F;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%; 
+    text-rendering: optimizeLegibility;
+    color:#fff;
+}
+
+.header {
+    max-width: 1184px;
+    height: 52px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+    
+}
+
+.header__lang-link {
+    width: 30px;
+    height: 28px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+/* identical to box height, or 117% */
+    text-align: right;
+    text-decoration-line: underline;
+    
+}
+
+.lead {
+    width: 984px;
+    height: 1005px;
+}
+
+.lead__title {
+    width: 720px;
+    height: 200px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    /* or 104% */
+    text-align: center;
+    
+}
+
+.lead__subtitle {
+    width: 640px;
+    height: 72px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    
+    text-align: center;
+    
+}
+
+.lead__image {
+    width: 984px;
+    height: 615px;
+}
+
+.lead__caption {
+    width: 158px;
+    height: 14px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height, or 140% */
+    
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+   
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    height: 429px;
+}
+
+.intro__title {
+    width: 690px;
+    height: 58px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    /* identical to box height, or 107% */
+     
+}
+
+.intro__text {
+    width: 690px;
+    height: 208px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+   
+}
+
+.intro__list {
+    width: 690px;
+    height: 90px;   
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+ 
+}
+
+.photo-grid {
+ 
+    width: 1184px;
+    height: 671px;
+}
+
+.photo-grid__item {
+    width: 284px;
+    height: 213px;
+}
+
+.places {
+    width: 984px;
+    height: 3392px;
+}
+
+.place {
+    width: 984px;
+    height: 660px;
+}
+
+.place__title {
+    width: 460px;
+    height: 152px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+  
+}
+
+.place__image {
+    width: 460px;
+    height: 460px;
+}
+
+.place__website {
+    width: 456px;
+    height: 46px;
+
+}
+
+.place__url-heading {
+    width: 456px;
+    height: 12px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 0.2em;
+  
+}
+
+_.place_link {
+    width: 456px;
+    height: 22px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    
+    text-decoration-line: underline;
+    
+   
+}
+
+.place_paragraph {
+    width: 484px;
+    height: 145px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    /* or 29px */
+        
+    
+}
+
+.cover {
+    width: 1184px;
+    height: 740px;
+}
+
+.cover__title {
+    width: 560px;
+    height: 152px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    
+    text-align: center;
+    
+    
+}
+
+.cover__subtitle {
+    width: 360px;
+    height: 66px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+    
+    text-align: center;
+    
+   
+}
+
+.cover__overlay {
+    width: 1184px;
+    height: 740px;
+    
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.footer {
+    width: 1184px;
+    height: 18px;
+}
+
+.footer__link {
+    width: 50px;
+    height: 18px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+    
+    
+}
+
+.footer__copyright {
+    width: 186px;
+    height: 16px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    text-align: right;
+    
+}
