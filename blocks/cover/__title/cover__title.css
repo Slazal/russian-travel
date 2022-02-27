@@ -1,4 +1,4 @@
-.cover__text_title {
+.cover__title {
     margin: 0;
     padding: 0;
     font-style: normal;
@@ -9,7 +9,7 @@
 }
  
 @media screen and (min-width: 768px) {
-    .cover__text_title {
+    .cover__title {
     font-size: 72px;
     line-height: 76px;
     }
