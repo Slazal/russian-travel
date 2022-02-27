@@ -1,4 +1,4 @@
-.cover__text { 
+.cover__text {
     margin: 0 auto;
     padding: 0;
     max-width: 288px;
@@ -7,15 +7,14 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 0; 
-    right: 0; 
-    bottom: 0; 
+    top: 0;
+    right: 0;
+    bottom: 0;
     left: 0;
-    
 }
 
 @media screen and (min-width: 768px) {
-    .cover__text { 
+    .cover__text {
         max-width: 560px;
     }
 }
