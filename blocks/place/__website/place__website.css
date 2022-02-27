@@ -1,0 +1,22 @@
+.place__website {
+    margin: 0 auto;
+    padding: 0;
+    min-width: 288px;  
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-self: end;
+}
+
+@media screen and (min-width: 768px) {
+    .place__website {
+        margin: 0;
+        min-width: 352px;  
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place__website {
+        min-width: 456px;
+    } 
+}
