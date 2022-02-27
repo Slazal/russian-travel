@@ -18,7 +18,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 48px 28px;
-
     }
 }
 
@@ -35,4 +34,4 @@
         max-width: 984px;
         gap: 48px 40px;
     }
-} 
+}
